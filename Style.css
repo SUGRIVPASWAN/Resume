@@ -4,17 +4,17 @@
   z-index: 1;
   top: 0;
   overflow-x: hidden;
-
+  
 }
 .left {
   width:30%;
   left:0;
-  background-color:skyblue;
+  background-color:gold;
 }
 .right {
   right: 0;
-  width:70%;
-  background-color:white;
+  width:70%; 
+  background-color:skyblue; 
 }
 .centered {
   position:absolute;
@@ -25,20 +25,20 @@
 }
 .centered img {
   width: 150px;
-  border-radius: 50%;
+ 
 }
 .a{
   text-align:left;
 }
-.c{
+.c{ 
   position:relative;
   top:0%;
 }
 .solid
 {
- border-color: skyblue;
+ border-color: red;  
  border-style: solid;
- background-color:skyblue;
+ background-color:orange;
  text-align:center;
 }
 .fa {
@@ -77,37 +77,46 @@ td, th {
 }
 .align
 {
- border-color: skyblue;
+ border-color: black;  
  border-style: solid;
- background-color:skyblue;
+ background-color:red;
  margin-left:78px;
  margin-right: 40px;
- text-align: center;
+ text-align: center;  
+}
+
+.qual
+{
+ border-color: black;  
+ border-style: solid;
+ background-color:gold;
+ margin-left:78px;
+ margin-right: 40px;
+ text-align: center;  
 }
 .align1
 {
- border-color: skyblue;
+ border-color: black;  
  border-style: solid;
- background-color:skyblue;
+ background-color:orange;
  margin-left:78px;
  margin-right: 40px;
- text-align: left;
+ text-align: left;  
 }
 .align2
 {
- border-color: skyblue;
+ border-color: black;  
  border-style: solid;
- background-color:skyblue;
+ background-color:lightgreen;
  margin-left:78px;
  margin-right: 40px;
- text-align: left;
+ text-align: left;  
 }
 .align3
 {
- border-color: white;
+ border-color: black;  
  border-style: solid;
  background-color:white;
- margin-left:78px;
- margin-right: 40px;
- text-align: right;
+ 
+  
 }
